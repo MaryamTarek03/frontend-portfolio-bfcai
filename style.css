@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  max-height: 100%;
+}
+
+body {
+  font-family: "Montserrat Alternates", "Courier New", Courier, monospace, Arial,
+    sans-serif;
+  margin: 0;
+  padding: 0;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  background-image: url(assets/images/coven-kaisa-concept-flipped.jpg);
+  backdrop-filter: blur(3px);
+}
+
+header {
+  color: #fff;
+  padding: 1em 0;
+  height: 10vh;
+  text-align: center;
+}
+
+nav {
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+nav ul {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 3em;
+  /* padding: 0 1em; */
+  transition: 0.2s;
+}
+
+nav a:hover {
+  font-size: 1.2em;
+  color: #ffc7dc;
+}
+
+nav a {
+  text-decoration: none;
+  /* font-weight: bold; */
+  transition: 0.2s;
+  color: #fff;
+}
+
+h1 {
+  font-size: 4em;
+  margin: 0;
+  background: linear-gradient(to right, #b700ff, #ff83aa, #92fffd);
+  background-clip: text;
+  font-family: Orbitron, "Courier New", Courier, monospace;
+  color: transparent;
+}
+
+.home-text-container p {
+  /* font-family: "Indie Flower", 'Courier New', Courier, monospace; */
+  color: #fff;
+  font-size: 1.5em;
+  margin: 20px 0;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  font-family: Orbitron, "Courier New", Courier, monospace;
+  color: white;
+  background: linear-gradient(to right, #ff00ff, #ff007f);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: linear-gradient(to left, #ff00ff, #ff007f);
+  font-size: 1.2em;
+}
+.home-text-container {
+  display: inline-block;
+  width: 100vw;
+  height: 90vh;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.glass-container {
+  background: rgba(255, 6, 143, 0.25);
+  /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
+  backdrop-filter: blur(4px);
+  margin: 0 15%;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.contact-icon {
+  font-size: 1.5em;
+  color: white;
+  text-decoration: none;
+  /* background-color: #333; */
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.contact-icon:hover {
+  background-color: #0073b1;
+}
+
+.contact-icon:nth-child(1):hover {
+  background-color: #7289da;
+}
+
+.contact-icon:nth-child(3):hover {
+  background-color: #333;
+}
